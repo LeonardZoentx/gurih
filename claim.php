@@ -1,7 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo "\n";
 echo "\e[92m             (Selamat Datang $input)               \n";
 echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 // function change(){
