@@ -1,9 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-
-
-
 echo color("green","[]         (Selamat Datang $input)               \n";
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
