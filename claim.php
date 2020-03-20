@@ -3,7 +3,6 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo "\e[92m             (Selamat Datang $input)               \n";
 echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-// function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         echo color("red","📲▶️ Nomor : ");
